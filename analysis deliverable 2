@@ -1,0 +1,10 @@
+# UFO
+Overview: Explain the purpose of the project
+In this project we were tasked with  building a website that allows us to view and filter the details of UFO sightings from our large JSON file. Due to the size of the data file, we created a site with a filter modulation that allows the user to search by date, city, state, country and 'shape'.  The challenge of this project was to expand on the filter from filing by date to being more dynamic and encorporating the keys from the Json file.
+
+Results: Describe how to perform a search
+
+Our website now filters is search for entries in our JSON keys. Using javascript and "on change" our table automatically filters. This makes it very user friendly for our users to observe the data. 
+
+Summary: Describe one draw back and a further rec
+One drawback of the current design is that it was very difficult to build and that the 'comments' key is omitted from our table.  Thinking about these comments and the 'shape' key, it may be more beneficial for those who are actually interested in this data to read the comments.  The shapes are very general, and typically these UFO sightings are more believable with context and a story.  My rec would be to build out a 'learn more' functionality that would take you to the full report for that given sighting.  I understand it is not feasible to build on the current site given how long the comments are.
